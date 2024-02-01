@@ -1,0 +1,10 @@
+package com.ssia.repositories;
+
+import com.ssia.entities.Ingredient;
+import org.springframework.data.repository.CrudRepository;
+
+public interface IngredientRepository
+        extends CrudRepository<Ingredient, String> {
+
+
+}
